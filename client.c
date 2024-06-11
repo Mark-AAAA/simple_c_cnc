@@ -114,9 +114,7 @@ int32_t main(void) {
 
     return 0;
 }
-// Compile: clang -Wall -Wextra -Wpedantic -Wconversion -fsanitize=address client.c -o client -lws2_32
-// Complile info file: llvm-windres client.rc -O coff -o client.res
-// 			clang -O3 -s client.c client.res -o client -lws2_32
+
 void handle_error(const char* error_message) {
     fprintf(stderr, "[-] %s\n", error_message);
 }
