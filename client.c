@@ -7,7 +7,6 @@
 #include <stdbool.h>
 #include <direct.h>
 
-#define SERVER_IP "192.168.2.2"
 #define PORT 8080
 #define BUFFER_SIZE 4096
 #define TIMEOUT_SECONDS 5
