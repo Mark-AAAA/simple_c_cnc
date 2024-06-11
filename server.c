@@ -75,9 +75,7 @@ int32_t main(void) {
 
     return 0;
 }
-// Compile: clang -Wall -Wextra -Wpedantic -Wconversion -fsanitize=address server.c -o server -lws2_32 -lgdi32 -mwindows
-// Complile info file: llvm-windres server.rc -O coff -o server.res
-// clang server.c server.res -o server -lws2_32 -lgdi32
+
 void handle_error(const char* error_message) {
     fprintf(stderr, "Error: %s\n", error_message);
 }
